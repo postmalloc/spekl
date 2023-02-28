@@ -1,4 +1,4 @@
-use crate::pointcloud::PointCloud;
+use crate::objects::pointcloud::PointCloud;
 use kiss3d::camera::ArcBall;
 use kiss3d::light::Light;
 use kiss3d::nalgebra::Point3;

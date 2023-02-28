@@ -1,4 +1,4 @@
-use kiss3d::nalgebra::Point3;
+use crate::objects::point::Point3;
 
 pub struct PointCloud {
     points: Vec<Point3<f32>>

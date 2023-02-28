@@ -1,4 +1,4 @@
-use spekl::pointcloud::PointCloud;
+use spekl::objects::pointcloud::PointCloud;
 use spekl::visualization::render::PointcloudRenderer;
 use spekl::io::ply_reader::parse_ply_file;
 

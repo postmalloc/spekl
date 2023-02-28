@@ -1,7 +1,7 @@
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 
-use kiss3d::nalgebra::Point3;
+use crate::objects::point::Point3;
 
 // Note: This is a very basic, incomplete PLY reader. Probably not very robust.
 pub fn parse_ply_file(path: &str) -> Result<Vec<Point3<f32>>, String> {
